@@ -109,19 +109,19 @@ label {
 /* event banner css */
 
 .imageCycle1 {
-        background: url(http://www.lovethispic.com/uploaded_images/317930-Michael-Myers-Halloween-Cartoon-Gif.gif);  
+        background: url(../images/halloween1.gif);  
 }
 
 .imageCycle2 {
-        background: url(https://i.redd.it/esf36z8y9zuz.gif);  
+        background: url(../images/halloween2.gif);  
 }
 
 .imageCycle3 {
-        background: url(https://cdn.dribbble.com/users/295355/screenshots/3878696/ghostdribbblefinalnewanimation.gif);  
+        background: url(../images/halloween3.gif);  
 }
 
 .imageCycle4 {
-        background: url(https://66.media.tumblr.com/ce4f37d54f03ffb5fe935373549dfb2d/tumblr_oklz17CQQZ1ula1mbo1_500.gif);  
+        background: url(../images/halloween4.gif);  
 }
 
 .event-banner-wrapper { 
