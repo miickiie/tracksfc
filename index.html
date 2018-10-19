@@ -152,6 +152,10 @@ Created by pixpalette.com - online design magazine -->
                 $.getJSON(data, function (json) {
                     $(".loader").fadeOut("slow");;
                     console.log(json);
+                    if(json.count == 0) {
+                        alert("Sorry, your tracking does not exists.");
+                        return;
+                    }
                     $('#country').html(json.orderInfo.country.cn_name);
                     $('#customer_order_code').html(json.orderInfo.customer_order_code);
                     $('#order_code').html(json.orderInfo.order_code);
